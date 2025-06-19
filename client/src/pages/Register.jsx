@@ -28,7 +28,7 @@ const Register = () => {
 
     if (!user.username) newErrors.username = "Username is required";
     if (!user.email || !emailRegex.test(user.email)) newErrors.email = "Invalid email";
-    if (user.password.length < 5) newErrors.password = "Password must be at least 8 characters";
+    if (user.password.length < 5) newErrors.password = "Password must be at least 5 characters";
     if (user.password !== user.confirmPassword) newErrors.confirmPassword = "Passwords do not match";
     if (!user.gender) newErrors.gender = "Gender is required";
 
