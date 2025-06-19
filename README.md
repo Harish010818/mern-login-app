@@ -75,6 +75,13 @@ http://localhost:5173
 - 👤 AuthUser: `/api/user/`
 ---
 
+## ⚠️ Known Issues or Limitations
+
+- Currently, there is **no logout functionality** implemented in the app.
+- This feature can be added easily in future versions for a complete auth flow.
+
+---
+
 ## 🔗 Deployed Link
 
 [🌐 Live App](https://mern-login-app-t5hx.vercel.app/)
