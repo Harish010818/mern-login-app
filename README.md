@@ -1,9 +1,6 @@
 # 🔐 Full Stack Login/Register System (React + TailwindCSS + Express + MongoDB)
 
-A fully responsive and functional **Login & Register system** built with:
-- **Frontend:** React.js + TailwindCSS
-- **Backend:** Express.js + MongoDB
-- **Auth:** JWT + HttpOnly Cookies
+This is a full-stack Login/Register authentication system built using React.js, TailwindCSS, Node.js, Express, and MongoDB. It includes protected routes, JWT-based authentication via HttpOnly cookies, and a responsive UI with dark/light theme toggle. The app validates user input on the frontend and securely handles password encryption and authentication on the backend. Upon successful login, users are redirected to a protected dashboard.
 
 ---
 
@@ -70,3 +67,21 @@ cd ../client && npm run dev
 
 # 5️⃣ Visit the app at:
 http://localhost:5173
+```
+## API Endpoints
+
+- 🔑 Login: `/api/user/login`
+- 📝 Register: `/api/user/register`
+- 👤 AuthUser: `/api/user/`
+---
+
+## 🔗 Deployed Link
+
+[🌐 Live App](https://mern-login-app-t5hx.vercel.app/)
+
+---
+
+## 📬 Contact
+
+- 📧 Email: devharishjuyal18@gmail.com  
+- 💼 LinkedIn: [Harish Chandra Juyal](https://www.linkedin.com/in/harish-chandra-juyal-968aba2a9/)
