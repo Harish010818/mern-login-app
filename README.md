@@ -46,17 +46,15 @@ Follow the steps below to run the project on your local machine:
 
 ### 📁 1. Clone the Repository
 
-```bash
+1. bash
 git clone https://github.com/Harish010818/mern-login-app.git
 cd mern-login-app
 
-
-
-```server/.env
+2. server/.env
 PORT=5000
 MONGO_URI=your_mongo_connection_string
 FRONTEND_URL=http://localhost:5173
 SECRET_KEY=your_jwt_secret
 
-```client/.env
+3. client/.env
 VITE_API_URL=http://localhost:5000
