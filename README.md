@@ -44,17 +44,29 @@ Follow the steps below to run the project on your local machine:
 
 ---
 
-### 📁 1. Clone the Repository
-
-1. bash
+```bash
+# 1️⃣ Clone the repo
 git clone https://github.com/Harish010818/mern-login-app.git
 cd mern-login-app
 
-2. server/.env
+# 2️⃣ Create the following environment files:
+
+# 🔹 server/.env
 PORT=5000
 MONGO_URI=your_mongo_connection_string
 FRONTEND_URL=http://localhost:5173
 SECRET_KEY=your_jwt_secret
 
-3. client/.env
+# 🔹 client/.env
 VITE_API_URL=http://localhost:5000
+
+# 3️⃣ Install dependencies
+cd server && npm install
+cd ../client && npm install
+
+# 4️⃣ Start both servers
+cd ../server && npm run dev
+cd ../client && npm run dev
+
+# 5️⃣ Visit the app at:
+http://localhost:5173
